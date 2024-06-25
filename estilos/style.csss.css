@@ -1,0 +1,60 @@
+body{
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      background-color: #ffe4b5;
+}
+
+.contenedor{
+    display: flexbox;
+    justify-content: end;
+    width: 100px;
+
+}
+.contenedor img{
+    width: 60px;
+}
+
+.menu{
+    display: flex;
+    position: sticky;
+    width: 100px;
+    align-items: end;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.servicios{
+    display: inline-flex;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.servicios-sese{
+    width: 100%;
+
+}
+.servicios-sese img{
+    width: 160px;
+    height: 160px;
+}
+footer {
+    display: inline-flex;
+    width: 100%;
+    padding: 80px 0;
+}
+.informacion{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
