@@ -1,0 +1,37 @@
+.galeria-servicios{
+    width: 100%;
+    text-align: center;
+}
+.card-body{
+    align-items: center;
+    width: 600px;
+}
+.servicio-card{
+    margin: 20px;
+}
+ &img{
+    height: 500px;
+    width: 500px;
+    @include fotografia (30px, 30px);
+    display: flexbox;
+    align-items: center;
+}
+#carrete{
+    margin: 60px 60px 60px 60px;
+}
+
+#espacio{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+   }
+   .clearfix{
+       margin-top: 20px;
+       margin-left: 20px;
+       margin-bottom: 20px;
+       margin-right: 30px;
+   }
+    &img{
+       height: 200px;
+       width: 200px;
+   }

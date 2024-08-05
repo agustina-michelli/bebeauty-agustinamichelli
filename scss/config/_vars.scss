@@ -1,0 +1,30 @@
+//tipografias
+$title-principal:"Manrope",sans-serif;
+//Colores
+$color-primary: #f36a8c;
+
+//variantes tipograficas
+$background-color: #e9c5ce;
+/*M A P A S*/
+// scss.\config\_vars.scss
+$my-font-sizes: (
+    small:10px,
+    medium: 12px,
+    large:20px
+);
+// formato talle
+@each $formato, $talle in $my-font-sizes{
+    .btn-#{$formato}{
+        font-size: $talle;
+        color: $color-primary;
+      }
+    };
+$color-rrss:(
+  instagram: black,
+  facebook: black,
+);
+@each $red, $atencion in $color-rrss{
+  .color-rrss-#{$red}{
+    color: $atencion;
+  }
+};

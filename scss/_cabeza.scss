@@ -1,0 +1,30 @@
+.carousel{
+    width: 100%;
+}
+.carousel-item{
+    height: 500px;
+    & img{
+      height: 300px;
+    }
+   }
+
+.menu{
+    display: flex;
+    position: sticky;
+    width: 100px;
+    align-items: end;
+    & ul{
+      display: flex;
+      justify-content: space-around;
+    }
+    &ul li {
+      list-style: none;
+      text-decoration: none;
+    }
+}
+.nav-item{
+  list-style: none;
+  text-decoration: none;
+  color: $color-primary;
+
+}
