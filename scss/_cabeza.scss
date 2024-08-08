@@ -1,12 +1,9 @@
 .carousel{
-    width: 100%;
+  width: 100%;
 }
-.carousel-item{
-    height: 500px;
-    & img{
-      height: 300px;
-    }
-   }
+  img{
+    height: 300px;
+  }
 
 .menu{
     display: flex;
